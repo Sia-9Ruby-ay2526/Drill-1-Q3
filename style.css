@@ -1,0 +1,19 @@
+.container{
+    border: 10px solid rgb(35, 57, 101);
+    background-color: rgb(176, 193, 230);
+    margin: 0px auto;
+    padding: 20px;
+    width: 67%
+}
+
+h1{
+    color: rgb(32, 60, 106);
+}
+
+p{
+    color: rgb(139, 158, 198)
+}
+
+body{
+background-image: url(https://cdn.pixabay.com/photo/2016/06/29/14/04/fractal-1486892_1280.jpg);
+}

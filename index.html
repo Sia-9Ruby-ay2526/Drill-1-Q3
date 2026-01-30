@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Q3 Drill 1-Basic Calculator</title>
+
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+
+    <div class="container">
+        <h1>Basic Calculator</h1>
+        <p>Click the button</p>
+        <p id="answerkey">The answer is:</p>
+            <button type="button" class="btn btn-success" onclick="
+                let var1 = 6;
+                let var2 = 9;
+                let prod = var1*var2;
+                document.getElementById('answerkey').innerHTML = 'The answer is:' + prod;">calculate</button>
+
+        <!--Refresh-->
+            <button type="button" class="btn btn-success" onclick="window.location.reload()">Refresh</button>
+        
+    </div> 
+</body>
+</html>
